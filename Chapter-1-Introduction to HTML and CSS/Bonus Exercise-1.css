@@ -1,0 +1,62 @@
+code { background-color: #f3eeee;
+font-size: larger;
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+body {
+  background: hsla(0, 0%, 100%, 0.9);
+
+}
+
+p {
+  color: hsla(0, 0%, 2%, 0.9);
+  font: normal 140px Varela Round, sans-serif;
+  height: 140px;
+  left: 0;
+  letter-spacing: 5px;
+  margin: -80px 0 0 0;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 50%;
+  width: 100%;
+  animation: move linear 2000ms infinite;
+  background-color: #ffffff;
+    
+}
+
+@keyframes move {
+    75% {
+      text-shadow:
+        4px 4px 0 hsla(180, 100%, 50%, 1), 
+        3px 3px 0 hsla(180, 100%, 50%, 1), 
+        2px 2px 0 hsla(180, 100%, 50%, 1), 
+        1px 1px 0 hsla(180, 100%, 50%, 1),
+        -4px -4px 0 hsla(0, 100%, 50%, 1), 
+        -3px -3px 0 hsla(0, 100%, 50%, 1), 
+        -2px -2px 0 hsla(0, 100%, 50%, 1), 
+        -1px -1px 0 hsla(0, 100%, 50%, 1)      
+    }
+   
+  }
+
+   body {
+    background-image: url("https://i.pinimg.com/564x/f2/18/57/f218571c6b4fda5a2b8cc22cae185870.jpg");
+    background-repeat: repeat;
+    background-color: #cccccc;
+    height: 1200px;
+    width: 150%;
+    
+   }
+
+   
+h1{font-size: larger
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+h2 { font-family: sans-serif;}    
+
+ h3 {font-family: cursive;}
+
+ h4 {font-family: cursive;}
