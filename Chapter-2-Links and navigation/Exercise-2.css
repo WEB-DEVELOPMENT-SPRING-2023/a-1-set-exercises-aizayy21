@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+    margin: 0;
+	background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220218/pngtree-aesthetic-background-simple-hd-image_986552.jpg");
+}
+
+nav {
+	background-color: #333;
+	padding: 1em;
+	position: fixed;
+    color: #fff;
+    width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+nav ul {
+	list-style: none;
+    padding: 0;
+	margin: 0;
+	
+}
+
+nav li {margin-right: 1em;
+	display: inline-block; }
+
+nav a {
+    text-decoration: none;
+	color: #fff; }
+
+header {
+    text-align: center;
+	
+    background-color: rgb(120, 111, 76);
+	background-image: url("");
+	
+}
+
+h1 { background-image: url("");
+color: #e8e8e8;}
+
+h1, h2 {
+	margin: 0; }
+
+main {
+	margin-top: 4em;
+	padding: 2em; }
+
+section {
+	margin-bottom: 2em; }
+
+ul {
+	list-style: disc;
+	margin-left: 2em;}
+
+a.button {
+	background-color: #4CAF50;
+	border: none;
+	color: #fff;
+	padding: 1em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1em;
+        margin: 0}
+
+	h1{ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif }	
+
+p {font-family: Florence, cursive;}
