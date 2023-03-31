@@ -17,13 +17,11 @@ p {
   left: 0;
   letter-spacing: 5px;
   margin: -80px 0 0 0;
-  position: absolute;
-  text-align: center;
   text-transform: uppercase;
   top: 50%;
   width: 100%;
   animation: move linear 2000ms infinite;
-  background-color: #ffffff;
+  background-color:#e3e1d7;
     
 }
 
@@ -43,9 +41,7 @@ p {
   }
 
    body {
-    background-image: url("https://i.pinimg.com/564x/f2/18/57/f218571c6b4fda5a2b8cc22cae185870.jpg");
-    background-repeat: repeat;
-    background-color: #cccccc;
+    background-image: url("https://slidechef.net/wp-content/uploads/2021/07/educational-background-google-slide.jpg");
     height: 1200px;
     width: 150%;
     
@@ -53,9 +49,11 @@ p {
 
 
 h1{font-size: larger
-    font-family'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+    font-family'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #e3e1d7;}
 
-h2 { font-family: sans-serif;}    
+h2 { font-family: sans-serif;
+font-size: large;}    
 
  h3 {font-family: cursive;}
 
