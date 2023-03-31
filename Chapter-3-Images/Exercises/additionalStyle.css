@@ -1,0 +1,22 @@
+/* Div Box Divided into four class*/
+
+.one { color: rgb(174, 46, 70);
+     border-color: rgb(155, 5, 178);
+     box-shadow: red;
+     box-shadow: 10px 15px 10px rgb(255, 0, 0);
+}
+
+
+.two { border-color: green;   box-shadow: inset 7px 7px 10px black; }
+
+.three{ color: rgb(114, 51, 51);
+box-shadow: 0 0 0 9px rgb(23, 23, 101),
+0 0 0 19px rgb(214, 17, 17),
+0 0 0 29px rgb(49, 126, 7);
+
+ }
+
+
+.text{ text-shadow: 5px 5px 2px rgb(0, 0, 0);
+
+}
