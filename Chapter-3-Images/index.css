@@ -1,9 +1,0 @@
-img {
-    box-shadow: 5px 5px 10px rgba(70, 43, 43, 0.3);
-    filter:blur(20%);
-    height: auto;
-    filter: contrast(99%);
-    filter: saturate(80%); }
-
-h1{ text-decoration: underline;
-background-color: rgb(205, 223, 227); }  

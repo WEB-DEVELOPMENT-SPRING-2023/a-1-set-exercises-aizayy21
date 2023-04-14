@@ -9,10 +9,10 @@
 
 .two { border-color: green;   box-shadow: inset 7px 7px 10px black; }
 
-.three{ color: rgb(114, 51, 51);
-box-shadow: 0 0 0 9px rgb(23, 23, 101),
-0 0 0 19px rgb(214, 17, 17),
-0 0 0 29px rgb(49, 126, 7);
+.three{ 
+box-shadow: 0 0 0 9px rgb(15, 42, 218),
+0 0 0 19px rgb(236, 24, 24),
+0 0 0 29px rgb(91, 156, 56);
 
  }
 

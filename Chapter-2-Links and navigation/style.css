@@ -1,0 +1,43 @@
+
+  nav li {margin-right: 3em;
+	display: inline-block; }
+
+nav a { color: #ffffff; 
+}
+nav {background-color:#000000;
+padding: 1px;
+border-radius: 8px;}
+
+p {font-size: large;}
+
+header {
+        text-align: center;
+        color: #000000;
+        font-size: larger;
+        background-color: #ffffff;
+        padding: 0.1em;
+        background-clip: padding-box; }
+
+h1 { 
+    color: rgb(90, 141, 148);
+    text-align: center;
+    border: 2px solid#000000;
+    border-radius: 8px;
+    padding: 1.5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+
+h2 {color: #141414;
+    text-decoration:underline; }
+
+    .center {
+        transform: translate(-50%, 0%);
+        position: absolute;
+        top: 30%;
+        left: 50%; 
+      }
+
+   .Wednesday{ transform: translate(-50%, 0%);
+              position: absolute;
+              top: 48%;
+              left: 50%; }

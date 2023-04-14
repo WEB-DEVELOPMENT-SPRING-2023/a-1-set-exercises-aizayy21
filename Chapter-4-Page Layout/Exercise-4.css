@@ -34,8 +34,9 @@ aside {background-color: #172d67;
     height: 380px;
     color: #17072b;
     position:fixed; 
-    padding-top: 10px; 
-    margin-block: 50px; }
+    padding-top: 7px; 
+    margin-block: 50px;
+    position: absolute; }
 
 footer { background-color: #8c15e9;
     text-align: center;
