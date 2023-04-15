@@ -1,0 +1,74 @@
+body { background-image: url("Soundboard_Advanced.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+textarea {
+    width: 688px;
+    height: 278px;
+    border-radius: 8px;
+    margin-left: 19px;
+    margin-top: 86px; 
+}
+
+button{cursor: pointer;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid #ffffff;
+    padding: 49px 69px;
+    position:absolute;
+    border-radius: 8px;
+    top: 18.8%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-130%, -60%);
+}
+
+span { top: 58%;
+    left: 78%;
+    position: absolute;
+    transform: translate(-140%, -110%);}
+
+    .soundboard {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h1{background-color: #ffffff;
+    color: #df1919;
+    border-radius: 8px;
+    text-align: center;
+text-decoration:underline;}
+    
+
+    .sound {
+        background-color: #f2f2f2;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+        cursor: pointer;
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        width: 200px;
+    }
+    
+    .sound:hover {
+        background-color: #df1919;
+    }
+
+
+   .aside {
+        right: 118px;
+        background-color: #ffffff;
+        top: -32.6px;
+        right: 29px;
+        float: right;
+        width: 920px;
+        height: 661px; 
+        padding-top: 7px; 
+        margin-block: 80px;
+        position: absolute; }
+    

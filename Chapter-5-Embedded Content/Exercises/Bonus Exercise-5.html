@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Audio Soundboard </title>
+    <link rel="stylesheet" href="Bonus Exercise-5.css">
+</head>
+<body>
+    <textarea id="text-to-speech"></textarea>
+    <button onclick="convertToSpeech()">Say it <span id="Voice" >&#128264;</span> </button> 
+  <script>
+     function convertToSpeech() {
+      const textToSpeech = document.getElementById("text-to-speech").value;
+      const speech = new SpeechSynthesisUtterance();
+      speech.lang = "US";
+      speech.text = textToSpeech;
+      speech.volume = 5;
+      speech.rate = 1;
+      speech.pitch = 10;
+      window.speechSynthesis.speak(speech); }
+</script>
+
+<script>
+  function playSound(id) {
+  var audio = document.getElementById(id);
+  audio.currentTime = 0;
+  audio.play();} 
+</script>
+
+<br>
+<Br>
+    <div class="aside" >
+      <h1>Alan Partridge Soundboard </h1>
+      <div class="soundboard">
+
+      <div class="sound" onclick="playSound('ah-ha')">
+        <p>10.</p>
+        <h3>Ah-Ha</h3>
+        <p> 1.4</p>
+      </div>
+        
+      <div class="sound" onclick="playSound('dan')">
+        <p> 11.</p>
+        <h3>Dan</h3>
+        <p> 0.5</p>
+      </div>
+        
+      <div class="sound" onclick="playSound('back-of-the-net')">
+        <p>12.</p>
+        <h3>Back of the net</h3>
+        <p> 1.02</p>
+      </div>
+
+      <div class="sound" onclick="playSound('bangoutoforder')">
+        <p> 13.</p>
+        <h3>Bang out of order</h3>
+        <p> 1.38</p>
+      </div>
+        
+      <div class="sound" onclick="playSound('jurassic park')">
+        <p>14.</p>
+        <h3>Jurassic park</h3>
+        <p>1.49 </p>
+      </div>
+        
+      <div class="sound" onclick="playSound('smell-my-cheese')">
+        <p> 15.</p>
+        <h3>Smell my cheese</h3>
+        <p>1.91</p>
+      </div>
+        
+      <div class="sound" onclick="playSound('goal')">
+        <p>16.</p>
+        <h3>Goal</h3>
+        <p>1.49 </p>
+      </div>
+        
+      <div class="sound" onclick="playSound('kiss-my-face')">
+        <p>17.</p>
+        <h3>Kiss my face</h3>
+        <p> 1.07</p>
+      </div>
+        
+      <div class="sound" onclick="playSound('hellopartridge')">
+        <p>18.</p>
+        <h3>Hello Partridge</h3>
+        <p>2.25</p>
+      </div>  
+    </div>
+
+  <audio id="ah-ha" src="Audio Sampler/Audio/ah-ha.mp3"></audio>
+
+  <audio id="dan" src="Audio Sampler/Audio/dan.mp3"></audio>
+
+  <audio id="back-of-the-net" src="Audio Sampler/Audio/back-of-the-net.mp3"></audio>
+
+  <audio id="bangoutoforder" src="Audio Sampler/Audio/bangoutoforder.mp3"></audio>
+
+  <audio id="jurassic park" src="Audio Sampler/Audio/jurassic park.mp3"></audio>
+
+  <audio id="smell-my-cheese" src="Audio Sampler/Audio/smell-my-cheese.mp3"></audio>
+
+  <audio id="goal" src="Audio Sampler/Audio/goal.mp3"></audio>
+
+  <audio id="kiss-my-face" src="Audio Sampler/Audio/kiss-my-face.mp3"></audio>
+
+  <audio id="hellopartridge" src="Audio Sampler/Audio/hellopartridge.mp3"></audio>
+
+</body>
+</html>
