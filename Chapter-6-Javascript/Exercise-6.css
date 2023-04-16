@@ -1,0 +1,67 @@
+/* CSS only For All main Body Content */
+body {
+    background-image: url("cool-calculator.jpg");
+    font-family:'Courier New', Courier, monospace;
+    background-size: cover;
+  }
+
+/* CSS only For Main Heading */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+  }
+
+/* CSS only For Form */
+  form {
+    width: 350px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    top: 38;
+  }
+  
+  /* CSS only For Input Text-Area */
+  input[type="number"] {
+    width: 92%;
+    padding: 14px;
+    border-radius: 5px;
+    align-items: center;
+  }
+
+    /* CSS only For Button */
+  button {
+    display: block;
+    margin: 9px auto 19px;
+    padding: 7px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #223f6a;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+  }
+  
+  /* CSS only For Hovering the Main Button */
+  button:hover {
+    background-color: #479649;
+  }
+
+  /* CSS only For Result that describe in P Tag */
+  p{ color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight:bolder;
+    margin-top: 30px;
+    background: #ffffff;
+    width:fit-content;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    top: 37%;
+    left: 61%;
+    height: 30px;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    transform: translate(-130%, -110%)}
