@@ -1,0 +1,80 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("Mario-White.jpg");
+    background: size 50px;
+  }
+  
+  /* Main Div Box */
+    #rgb-Colour {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+  }
+
+ /* Heading H1*/
+  h1 {
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+/* Apealing Look for color boxes*/
+  
+  #color-display {
+    font-size: 30px;
+    margin: 05px 0px;
+  }
+  
+
+/* Color Box Display Horizonatally*/
+
+  #color-options {
+    display: flex;
+  }
+  
+  /* Color Blocks*/
+  .color-option {
+    height: 250px;
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #000000;
+  }
+  
+ /* Apealing Look of score-board and lives-board*/
+  #score-display, #lives-display {
+    font-size: 40px;
+    color: #000000;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 12px;
+  }
+
+/* Try Again Button*/
+  
+  #try-again {
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #3e0303;
+    color: #fff;
+    border-radius: 8px;
+    border: #fff;
+  }
+
+/* Try Again Button Hover*/
+  
+  #try-again:hover {
+    background-color: #816c6c;
+  }
+
+/* Correct Guess Indicator Border*/
+  .correct {
+    border: 4px solid rgb(80, 186, 80);
+  }
+
+/* Correct Guess Indicator Border*/
+  .incorrect {
+    border: 4px solid rgb(209, 47, 47);
+  }
+  
