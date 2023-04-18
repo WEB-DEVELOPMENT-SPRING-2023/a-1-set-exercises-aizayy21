@@ -1,15 +1,100 @@
-code { background-color: #f3eeee;
-font-size: larger;
 
+/* CSS Nav ul */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+pre {text-align: justify;}
 
-body {
-  background: hsla(0, 0%, 100%, 0.9);
+/* CSS Nav Li */
 
+li {
+  float: left;
 }
 
+/* Nav anchor tag */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Nav Hover */
+
+li a:hover {
+  background-color:gray;
+}
+
+/* CSS That applies to all Heading Tag */
+
+h1,h2,h3,h4 { color: rgb(255, 255, 255);
+font-family: sans-serif;
+font-size: large;}
+
+/* CSS That applies to 2nd Picture only with Div Class "Picture" */
+.picture { top: 95%;
+  left: 51%;
+  position: fixed;
+  transform: translate(-140%, -110%)}
+
+  /* CSS That applies to 3rd Picture only with Div Class "Picture2" */
+.picture2 { top: 95%;
+  left: 73%;
+  position: fixed;
+  transform: translate(-140%, -110%)}
+
+ /* CSS That applies to 4th Picture only with Div Class "Picture3" */
+.picture3 { top: 95%;
+  left: 95%;
+  position: fixed;
+  transform: translate(-140%, -110%)}
+
+
+/* CSS That applies to Just H1 */
+
+h1{font-size: larger
+  font-family'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #b4b09e;}
+
+
+/* CSS That applies to the Whole table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Css for table-header, table data- */
+th, td {
+  border: 2px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Css for Only for table-header*/
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Table Row Hover, Hovers Entire 1 Row */
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Responsive layout */
+@media screen and (max-width: 400px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+}
+
+/* Css for P Tag, That actually represent heading tag for a moment.*/
 p {
   color: hsla(0, 0%, 2%, 0.9);
   font: normal 140px Varela Round, sans-serif;
@@ -22,9 +107,10 @@ p {
   width: 100%;
   animation: move linear 2000ms infinite;
   background-color:#e3e1d7;
-    
 }
 
+
+/* Text Shadow Colors for P tag, called heading tag */
 @keyframes move {
     75% {
       text-shadow:
@@ -37,24 +123,11 @@ p {
         -2px -2px 0 hsla(0, 100%, 50%, 1), 
         -1px -1px 0 hsla(0, 100%, 50%, 1)      
     }
-   
   }
 
-   body {
-    background-image: url("https://slidechef.net/wp-content/uploads/2021/07/educational-background-google-slide.jpg");
-    height: 1200px;
-    width: 150%;
-    
-   }
-
-
-h1{font-size: larger
-    font-family'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #e3e1d7;}
-
-h2 { font-family: sans-serif;
-font-size: large;}    
-
- h3 {font-family: cursive;}
-
- h4 {font-family: cursive;}
+  .copyright {
+    font-size: 12pt;
+    text-align: left;
+    padding-bottom: 8px;
+    color: grey;
+}
