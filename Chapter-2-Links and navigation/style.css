@@ -6,7 +6,7 @@ nav a { color: #ffffff;
 }
 nav {background-color:#000000;
 padding: 1px;
-border-radius: 8px;}
+border-radius: 0px;}
 
 p {font-size: large;}
 
@@ -22,8 +22,10 @@ h1 {
     color: rgb(90, 141, 148);
     text-align: center;
     border: 2px solid#000000;
-    border-radius: 8px;
-    padding: 1.5%;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    padding: 1%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     }
 
@@ -34,6 +36,20 @@ h2 {color: #141414;
         transform: translate(-50%, 0%);
         position: absolute;
         top: 30%;
+        left: 50%; 
+      }
+
+      .down {
+        transform: translate(-50%, 0%);
+        position: absolute;
+        top: 162%;
+        left: 50%; 
+      }
+
+        .last {
+        transform: translate(-50%, 0%);
+        position: absolute;
+        top: 96%;
         left: 50%; 
       }
 
